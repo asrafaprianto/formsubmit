@@ -142,6 +142,17 @@
         <div class="row justify-content-center">
           <div class="col-md-8">
             <form action="https://formsubmit.co/asrafaprianto@gmail.com" method="POST">
+
+              <!-- Honeypot -->
+              
+              <input type="text" name="_honey" style="display: none;">
+
+              <!-- Disable capcha -->
+
+              <input type="hidden" name="_captcha" value="false">
+
+              <!-- The end of Honeypot -->
+
               <div class="mb-3">
                 <label for="firstname" class="form-label">First Name</label>
                 <input type="text" class="form-control" name="name" id="firstname" aria-describedby="name" required />
